@@ -1,5 +1,5 @@
 local Whitelist = {
 [1] = "BAAEC160-8BBF-4DA2-B2AB-56CA48410F73",
-[2] = ""
+[2] = "E5A81E4F-B390-46D9-81D2-5069FA00DB2A"
 }
 return Whitelist
