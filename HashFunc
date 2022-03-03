@@ -1,3 +1,4 @@
+local storedshahashes = {}
 local Functions = {}
 Functions.hashfunc = function(str)
 if storedshahashes[tostring(str)] == nil then
