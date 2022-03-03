@@ -1,0 +1,8 @@
+local Functions = {}
+Functions.hashfunc = function(str)
+if storedshahashes[tostring(str)] == nil then
+	storedshahashes[tostring(str)] = shalib.sha512(tostring(str).."SelfReport")
+end
+return storedshahashes[tostring(str)]
+end
+return Functions
