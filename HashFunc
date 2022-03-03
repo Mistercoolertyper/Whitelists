@@ -1,5 +1,6 @@
 local storedshahashes = {}
 local Functions = {}
+local shalib = loadstring(GetURL("Libraries/sha.lua"))()
 Functions.hashfunc = function(str)
 if storedshahashes[tostring(str)] == nil then
 	storedshahashes[tostring(str)] = shalib.sha512(tostring(str).."SelfReport")
